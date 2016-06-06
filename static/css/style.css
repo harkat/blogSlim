@@ -1,0 +1,341 @@
+
+body {
+    background: url('../Images/body.jpg')  ;
+	background-attachment : fixed ;
+    font-family: cursive;
+    color: #181818;
+	}
+
+#page {
+	margin-left : 7% ;
+	margin-right :8% ;
+	}
+	
+ /* HEAD */
+ 
+header {
+	width :100% ;
+	height : 10% ;
+	border: groove ; 
+	border-left : 6px double white ;
+	min-width : 500px ;
+	max-width : 1400px ;
+	background-color : #000033  ;
+	border-radius : 0 20% 0 0 ;
+	}
+
+header a {
+	text-decoration: none;
+	color : white;
+	}
+	
+header a:hover {
+	color : blue ;
+}
+
+header img {
+	float : left ;
+	margin-top : 2% ;
+	}
+	
+header h1 {
+    margin-bottom: 0px;
+	font-size: 2.5em;
+    font-weight: bold ;
+	padding-top : 1% ;
+	margin-top : 0 ;
+	}
+
+header h2 {
+    font-size: 1.1em;
+    margin-top: 0px;
+    padding-left : 8% ;
+	}
+
+#banniere {
+	width : 100% ;
+	max-width : 1400px ;
+	min-width : 500px ;
+	border : groove ;
+	border-left : 6px double white ;
+	}
+
+#banniere img {
+	width :100% ;
+	padding-bottom : 0px ;
+	height : 300px ;
+	}
+	
+/* Navigation */
+
+nav {
+    width : 100% ;
+	height : 8% ;
+	max-width : 1400px ;
+	min-width : 500px ;
+	text-align : center ;
+   	border : solid black ;
+	border-left : 6px double black ;
+	background-color : #F8F8F8  ;
+	margin-bottom : 1% ;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius : 0 0 30% 30% 
+	}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1%;
+	margin-bottom : 1% ;
+	position: relative;
+	}
+
+nav a {
+    font-size: 1em;
+    color: white ;
+    text-decoration: none;
+	border : groove ;
+	border-radius : 15% 15% 15% 15% ;
+	background-color : #000033 ; 
+	}
+
+nav a:hover {
+    color: #87CEFA;
+    border: 3px solid #87CEFA;
+	}
+	
+#auth1 {
+   float: right ;
+   margin-left : 1%;
+   margin-right : 1%;
+   padding : 3px;
+   	border : solid white ;
+	font-weight: bold;
+	border-radius : 30% 
+	
+}
+#auth2 
+{
+	border : solid white ;
+	padding : 3px;
+	font-weight: bold;
+	
+}
+#form {
+   margin-left:5%;
+}
+	
+
+ /* BODY */
+
+	
+section h3, h4 {
+	text-align : center ;
+	border : groove ;
+	background-color : #C0C0C0 ;
+	border-radius: 15% 15% 15% 15% ;
+	margin-top : 1% ;
+	margin-bottom : 1% ;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+
+
+.error{
+	
+   background: #FFE7E7 ;
+   text-align : center ;
+   font-weight: bold;
+   border-top: 2px solid #E77D7B;
+   border-bottom: 2px solid #E77D7B;
+   border:2px solid #E77D7B;
+   font-family:Verdana;
+}
+
+.info{
+	
+   background: #E7FFD6 ;
+   text-align : center ;
+   font-weight: bold;
+   border-top: 2px solid #8CD76B;
+   border-bottom: 2px solid #8CD76B;
+   border:2px solid #8CD76B;
+   font-family:Verdana;
+}
+
+
+
+#ligne {
+    background-color : grey  ;
+}
+
+#art1 {
+	border : groove ;
+	background-color : #F0F0F0 ;
+	padding-bottom :2% ;
+
+	}
+	
+	
+#billets {
+	width : 50%;
+	border : groove ;
+	background-color : #F0F0F0 ;
+	margin : 1% 2% 1% 2% ; 
+	padding-bottom :2% ;
+}
+
+#users {
+	width : 50%;
+	border : groove ;
+	background-color : #F0F0F0 ;
+	margin : 1% 2% 1% 2% ; 
+	padding-bottom :2% ;
+}
+
+#delete{
+	margin-left: 5% ;
+}
+
+#pseudo {
+	font-size: 1.2em;
+	margin-bottom: 0;
+    margin-left : 2%;
+}
+
+#petitText {
+	font-size: 0.8em;
+	margin-left : 2%;
+	margin-top : 0;
+	margin-bottom: 0;
+	padding : 0% ;
+}
+
+#titre {
+	font-size: 1.2em;
+	text-decoration: underline;
+	margin-bottom: 0;
+	margin-left : 6%;
+}
+
+#message {
+	font-size: 0.9em;
+	margin-top : 0;
+	margin-left : 8%;
+}
+
+#unbillet {
+	width : 80%;
+	background-color : #F0F0F0 ;
+	padding-bottom :2% ;
+	border-bottom: groove;
+}
+
+#commentaires {
+	width : 70%;
+	background-color : #F0F0F0 ;
+	margin-left : 10% ;
+	padding-bottom :2% ;
+}
+
+#pagination{
+	margin-top : 2% ;
+	margin-left : 40% ;
+}
+
+#spCom {
+	text-decoration: underline;
+}
+
+#com_date {
+	font-size: 0.7em;
+	text-align: right;
+	margin-top : 0;
+	margin-bottom: 2%;
+	border-bottom : groove ;
+}
+#com_pseudo{
+	border-top : groove ;
+	text-decoration: underline;
+	margin-top : 2%;
+	margin-bottom: 0;
+}
+#com_text{
+	margin : 0 0 0 2%;
+	font-size: 0.9em;
+}
+
+#form{
+	margin-top: 2%;
+}
+
+
+
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+footer {
+	width : 100% ;
+	max-width : 1400px ;
+	min-width : 500px ;
+	text-align : center ;
+	border : groove;
+	margin-top : 1% ;
+	clear : both ;
+	background-color : #F8F8F8  ;
+	border-radius : 0 0 30% 30% ;
+	}
+
+footer li {
+	display : inline-block  ;
+	margin-right: 2%;
+	text-transform: lowercase;
+	}
+	
+@media screen and (max-width: 960px) {
+
+	
+	#page  {
+	margin: auto;
+	padding : 0 ;
+	}
+	
+	p {
+		font-size : 1.3em ;
+	}
+	
+	article {
+		width : 100% ;
+		width :auto ;
+		margin-bottom : 3px ;
+	}
+	
+	nav {
+        width: auto;
+         }
+    
+    nav li {
+        font-size : 0.7em 
+		} 
+		
+	#banniere {
+		display : none ;
+	}
+	
+	footer p {
+		font-size : 0.6em ;
+	}
+}

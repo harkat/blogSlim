@@ -1,0 +1,174 @@
+root:
+    url:        /
+    controller: Controller
+    action:     index
+    method:     get
+    
+listeBillet:
+    url:        /listBillet/:cPage
+    controller: AnonymousController
+    action:     lister_billet
+    method:     get
+    
+search:
+    url:        /search
+    controller: AnonymousController
+    action:     search
+    method:     get
+    
+statistique:
+    url:        /statistique
+    controller: AnonymousController
+    action:     afficher_stats
+    method:     get
+    
+categorie:
+    url:        /categorie
+    controller: AnonymousController
+    action:     liste_categories
+    method:     get     
+    
+afficherCategories:
+    url:        /categorie/:id
+    controller: AnonymousController
+    action:     afficher_categorie
+    method:     get 
+    
+login:
+    url:        /login
+    controller: AnonymousController
+    action:     login
+    method:     get
+    
+logout:
+    url:        /logout
+    controller: AnonymousController
+    action:     logout
+    method:     get
+
+signup:
+    url:        /signup
+    controller: AnonymousController
+    action:     signup
+    method:     get
+    
+signedUp:
+    url:        /signup/signedUp
+    controller: AnonymousController
+    action:     signedUp
+    method:     post
+    
+authentificaion:
+    url:        /login/auth
+    controller: AnonymousController
+    action:     authentification
+    method:     post    
+
+confirmation:
+    url:        /confirmation
+    controller: AnonymousController
+    action:     confirmation
+    method:     get
+
+profile:
+    url:        /profile
+    controller: UserController
+    action:     profile
+    method:     get
+    
+modifInfo:
+    url:        /profile/modifInfo    
+    controller: UserController
+    action:     modification_info_base
+    method:     post
+    
+modifMail:
+    url:        /profile/modifMail
+    controller: UserController
+    action:     modification_mail
+    method:     post
+    
+modifPass:
+    url:        /profile/modifPass
+    controller: UserController
+    action:     modification_pass
+    method:     post
+    
+suprimerCompte:
+    url:        /profile/delete/:id
+    controller: UserController
+    action:     suprimer_compte
+    method:     post
+    
+forgetPass:
+    url:        /login/forgetPass     
+    controller: AnonymousController
+    action:     forget_pass
+    method:     get
+    
+initialiserPass:
+    url:        /login/initialiser
+    controller: AnonymousController
+    action:     initialiser_pass
+    method:     post
+    
+newPassForm:
+    url:        /newPassForm
+    controller: AnonymousController
+    action:     new_pass_form
+    method:     get
+    
+NewPassSubmit:
+    url:        /newPassForm/submit
+    controller: AnonymousController
+    action:     new_pass_submit
+    method:     post
+    
+ecrirePublication:
+    url:        /ecrirePublication
+    controller: BilletController
+    action:     ecrire_publication
+    method:     get
+    
+posterPublication:
+    url:        /posterPublication
+    controller: BilletController
+    action:     poster_publication
+    method:     post
+    
+afficherUnePublication:
+    url:        /billet/:id
+    controller: BilletController
+    action:     afficher_publication
+    method:     get 
+    
+posterCommentaire:
+    url:        /commenter/:id
+    controller: BilletController
+    action:     poster_commentaire
+    method:     post 
+    
+ajouterCategorie:
+    url:        /categorieAjoutee
+    controller: AdminController
+    action:     ajouter_categorie
+    method:     post     
+    
+afficherCategorie:
+    url:        /ajouterCategorie
+    controller: AdminController
+    action:     ajout_categorie
+    method:     get 
+    
+listeUtilisateurs:
+    url:        /listeUtilisateurs
+    controller: AdminController
+    action:     lister_utilisateurs
+    method:     get 
+    
+suprimerUtilisateurs:
+    url:        /listeUtilisateur/delete
+    controller: AdminController
+    action:     suprimer_utilisateur
+    method:     post 
+    
